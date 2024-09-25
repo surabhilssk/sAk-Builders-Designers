@@ -1,4 +1,4 @@
-import { img1Src, img2Src, img3Src, img4Src,img5Src, img6Src, img7Src, img8Src  } from "../store/imageSource";
+import { img1Src, img2Src, img3Src, img4Src,img5Src, img6Src, img7Src, img8Src, img9Src  } from "../store/imageSource";
 import { ImageComponent } from "./Image";
 
 export function Showcase(){
@@ -12,7 +12,8 @@ export function Showcase(){
             <ImageComponent imgSrc={img6Src} alt={"Catalogue06"} imgDesc={"Dining"} />
             <ImageComponent imgSrc={img7Src} alt={"Catalogue07"} imgDesc={"Dining"} />
             <ImageComponent imgSrc={img8Src} alt={"Catalogue08"} imgDesc={"Contemporary Home Design"} />
-            <div className="flex flex-col justify-center text-center text-base font-semibold text-gray-500">More Coming soon...</div>
+            <ImageComponent imgSrc={img9Src} alt={"Catalogue09"} imgDesc={"Completed Work"} />
+            {/*(<div className="flex flex-col justify-center text-center text-base font-semibold text-gray-500">More Coming soon...</div>*/}
         </div>
     </div>
 }
