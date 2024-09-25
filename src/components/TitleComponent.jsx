@@ -5,7 +5,7 @@ export function TitleComponent() {
       <div className="bg-white p-4 sm:h-400px sm:w-643px sm:px-10 sm:pt-9">
         <div>
           <div>
-            <img className="w-12 h-12 md:ml-2 sm:w-20 sm:h-20" src="./src/assets/org_logo.jpg" alt="logo" />
+            <img className="w-12 h-12 md:ml-2 sm:w-20 sm:h-20" src="/assets/org_logo.jpg" alt="logo" />
           </div>
           <div className="font-extrabold text-primaryButton text-3xl sm:text-5xl leading-tight lg:text-5xl">
             SAK <br />Builders & Designers

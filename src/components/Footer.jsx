@@ -8,7 +8,7 @@ export function FooterComponent() {
                 <EmbeddedMap />
                 <div className="mt-5 md:mt-0 flex flex-col">
                     <div className="flex items-center mb-4">
-                        <img className="h-16 w-16" src="./src/assets/org_logo.jpg" alt="logo" />
+                        <img className="h-16 w-16" src="/assets/org_logo.jpg" alt="logo" />
                         <div className="font-bold ml-3">
                             SAK Builders & Designers
                         </div>

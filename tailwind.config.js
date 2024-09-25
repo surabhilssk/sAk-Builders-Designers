@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': "url('./src/assets/bg-new.png')",
-        'logo': "url('./src/assets/org_logo.png')"
+        'hero': "url('/assets/bg-new.png')",
+        'logo': "url('/assets/org_logo.png')"
       },
       colors: {
         'buttonGreen': {
